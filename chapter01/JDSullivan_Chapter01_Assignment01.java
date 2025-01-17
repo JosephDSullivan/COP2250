@@ -1,4 +1,10 @@
 /**
+ * This is code for chapter 01, assignment 01:
+ *      Write a program that displays the area and perimeter of a rectangle
+ *      with a width of 4.5 and a height of 7.9 using the following formula:
+ *      area = width x height
+ *      perimeter = 2 x (width + height)
+ *
  * @author  Joseph Sullivan
  * @version 1.0
  * @since   2025-01-16
