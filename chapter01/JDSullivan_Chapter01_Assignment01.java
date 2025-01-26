@@ -1,13 +1,13 @@
 /**
- * This is code for chapter 01, assignment 01:
- * Write a program that displays the area and perimeter of a rectangle
- * with a width of 4.5 and a height of 7.9 using the following formula:
+ * Chapter 01, Assignment 01.
+ * Write a program that displays the area and perimeter of a rectangle with a
+ * width of 4.5 and a height of 7.9 using the following formula:
  * area = width x height
  * perimeter = 2 x (width + height)
  *
- * @author Joseph Sullivan
+ * @author  Joseph D Sullivan <JSulli40@Student.SCF.edu>
  * @version 1.0
- * @since 2025-01-16
+ * @since   2025-01-16
  */
 package chapter01;
 
@@ -18,7 +18,8 @@ package chapter01;
 public class JDSullivan_Chapter01_Assignment01 {
     /**
      * This is the main method.
-     * @param args To be determined
+     *
+     * @param args to be determined.
      */
     public static void main(String[] args) {
         //  Store width and height.
