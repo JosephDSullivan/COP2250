@@ -30,7 +30,7 @@ public class JDSullivan_Chapter02_Assignment01 {
 
         //  Obtain subtotal.
         System.out.print("Enter the subtotal of your check, e.g., 37.65: $");
-        double subtotal = (int)(input.nextDouble() * 100) / 100.0;
+        double subtotal = (int) (input.nextDouble() * 100) / 100.0;
 
         //  Obtain gratuity percent.
         System.out.print("Enter the gratuity as a percent, e.g., 18.5:    ");
@@ -38,7 +38,7 @@ public class JDSullivan_Chapter02_Assignment01 {
 
         //  Calculate gratuity amount.
         double gratuityAmount =
-                (int)(subtotal * gratuityPercent * 100) / 100.0;
+                (int) (subtotal * gratuityPercent * 100) / 100.0;
 
         //  Calculate total amount.
         double total = subtotal + gratuityAmount;

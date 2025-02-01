@@ -23,7 +23,7 @@ public class ComputeLoan {
         double loanAmount = input.nextDouble();
 
         //  Calculate payment.
-        double monthlyPayment = loanAmount * monthlyInterestRate / ( 1 -
+        double monthlyPayment = loanAmount * monthlyInterestRate / (1 -
                 Math.pow(1 + monthlyInterestRate, -numberOfYears * 12));
         double totalPayment = monthlyPayment * numberOfYears * 12;
 
