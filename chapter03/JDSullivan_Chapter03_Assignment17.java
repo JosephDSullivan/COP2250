@@ -26,10 +26,68 @@ public class JDSullivan_Chapter03_Assignment17 {
      * @param args Not processed.
      */
     public static void main(String[] args) {
-        //  Create Scanner.
+        //  Initialize Scanner input.
         Scanner input = new Scanner(System.in);
+        //  Computer and user guess text (0=rock, 1=paper, 2=scissors) and
+        //  result text.
+        String compGuessTxt;
+        String userGuessTxt;
+        String result;
+
+        //  Calculate computer guess.
+        int compGuess = (int) (Math.random() * 3);
 
         //  Obtain user guess.
-        System.out.print("");
+        System.out.println("\n(0=rock, 1=paper, 2=scissors)");
+        System.out.print("Enter your choice: ");
+        int userGuess = input.nextInt();
+
+        //  Calculate results.
+        switch (compGuess) {
+            case 0:
+                compGuessTxt = "rock";
+                break;
+            case 1:
+                compGuessTxt = "paper";
+                break;
+            case 2:
+                compGuessTxt = "scissors";
+                break;
+            default:
+                compGuessTxt = "#ERROR#";
+                break;
+        }
+        switch (userGuess) {
+            case 0:
+                userGuessTxt = "rock";
+                break;
+            case 1:
+                userGuessTxt = "paper";
+                break;
+            case 2:
+                userGuessTxt = "scissors";
+                break;
+            default:
+                userGuessTxt = "#ERROR#";
+                break;
+        }
+        if (userGuess == compGuess) {
+            result = "It was a tie!";
+        } else if (userGuess == 0 && compGuess == 1
+                || userGuess == 1 && compGuess == 2
+                || userGuess == 2 && compGuess == 0) {
+            result = "I won.";
+        } else if (userGuess == 0 && compGuess == 2
+                || userGuess == 1 && compGuess == 0
+                || userGuess == 2 && compGuess == 1) {
+            result = "You won!";
+        } else {
+            result = "There was an error. Please try again.";
+        }
+
+        //  Display results.
+        System.out.print("\nI guessed " + compGuessTxt + ". ");
+        System.out.println("You guessed " + userGuessTxt + ".");
+        System.out.println(result);
     }
 }
