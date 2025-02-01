@@ -1,5 +1,5 @@
 /**
- * Chapter 02, Assignment 01.
+ * Chapter 02, Assignment 05.
  * Write a program that prompts the user for a subtotal and gratuity rate,
  * then computes the gratuity and total. For example, if the user enters
  * $10.00 for the subtotal and 15% for the gratuity rate, the program
@@ -15,9 +15,9 @@ package chapter02;
 import java.util.Scanner;
 
 /**
- * This code is for chapter 02, assignment 01.
+ * This code is for chapter 02, assignment 05.
  */
-public class JDSullivan_Chapter02_Assignment01 {
+public class JDSullivan_Chapter02_Assignment05 {
     /**
      * Calculate gratuity amount and total based on user provided subtotal
      * gratuity percent and display to user.

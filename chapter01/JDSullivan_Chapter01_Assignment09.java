@@ -1,5 +1,5 @@
 /**
- * Chapter 01, Assignment 01.
+ * Chapter 01, Assignment 09.
  * Write a program that displays the area and perimeter of a rectangle with a
  * width of 4.5 and a height of 7.9 using the following formula:
  * area = width x height
@@ -15,7 +15,7 @@ package chapter01;
  * This is a program for calculating and displaying the area and perimeter
  * of a rectangle with a width of 4.5 and a height of 7.9.
  */
-public class JDSullivan_Chapter01_Assignment01 {
+public class JDSullivan_Chapter01_Assignment09 {
     /**
      * This is the main method.
      *
