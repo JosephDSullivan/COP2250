@@ -3,7 +3,9 @@ package chapter05;
 import java.util.Scanner;
 
 public class SentinelValue {
-    /** Main method */
+    /**
+     * Main method
+     */
     public static void main(String[] args) {
         //  Create a Scanner.
         Scanner input = new Scanner(System.in);
