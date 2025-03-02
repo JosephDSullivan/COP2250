@@ -19,7 +19,7 @@ import java.util.Scanner;
 /**
  * This code is for chapter 05, assignment 01.
  */
-public class JDSullivan_Chapter05_Assignment01 {
+public class JSulli40_Chapter05_Assignment01 {
     /**
      * Get integer input from user until 0 is entered and report to user
      * counts (total, +, -), sum, and average.

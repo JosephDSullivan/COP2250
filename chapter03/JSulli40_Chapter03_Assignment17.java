@@ -19,7 +19,7 @@ import java.util.Scanner;
 /**
  * This code is for chapter 03, assignment 17.
  */
-public class JDSullivan_Chapter03_Assignment17 {
+public class JSulli40_Chapter03_Assignment17 {
     /**
      * Play rock, paper, scissors with the user for one round.
      *

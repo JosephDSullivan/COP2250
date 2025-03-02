@@ -22,7 +22,7 @@ import java.util.Scanner;
 /**
  * This code is for chapter 06, assignment 05.
  */
-public class JDSullivan_Chapter06_Assignment05 {
+public class JSulli40_Chapter06_Assignment05 {
     /**
      * Main method.
      * Prompts the user for three numbers and displays them in

@@ -17,7 +17,7 @@ import java.util.Scanner;
 /**
  * This code is for chapter 02, assignment 05.
  */
-public class JDSullivan_Chapter02_Assignment05 {
+public class JSulli40_Chapter02_Assignment05 {
     /**
      * Calculate gratuity amount and total based on user provided subtotal
      * gratuity percent and display to user.

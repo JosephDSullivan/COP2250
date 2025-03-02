@@ -16,7 +16,7 @@ import java.util.Scanner;
 /**
  * This code is for chapter 04, assignment 13.
  */
-public class JDSullivan_Chapter04_Assignment13 {
+public class JSulli40_Chapter04_Assignment13 {
     /**
      * Get user input and determine if it is a vowel, consonant, or invalid.
      *
