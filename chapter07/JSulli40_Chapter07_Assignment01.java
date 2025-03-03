@@ -1,8 +1,36 @@
+/**
+ * Chapter 07, Assignment 01.
+ * Write a program that prompts the user to enter student scores, gets the
+ * best score and then assigns grades based on the following scheme:
+ *      Grade is A if score >= best - 10;
+ *      Grade is B if score >= best - 20;
+ *      Grade is C if score >= best - 30;
+ *      Grade is D if score >= best -40;
+ *      Grade is F otherwise.
+ * The program prompts the user to enter the total number of students, then
+ * prompts the user to enter all of the scores and concludes by displaying the
+ * grades of each student.
+ * ***Look in the book for a sample run.
+ *
+ * @author Joseph D Sullivan
+ * @version 1.0
+ * @since 2025-03-02
+ */
+
 package chapter07;
 
 import java.util.Scanner;
 
+/**
+ * This code is for chapter 07, assignment 01.
+ */
 public class JSulli40_Chapter07_Assignment01 {
+    /**
+     * Main method.
+     * Prompts the user for student count, then prompts user for score for
+     * each student. Program tracks maximum score and will return the result
+     * of getGrade for each score and displays results to user.
+     */
     public static void main(String[] args) {
         //  Instantiate Scanner to retrieve user input.
         Scanner scanner = new Scanner(System.in);
@@ -45,7 +73,7 @@ public class JSulli40_Chapter07_Assignment01 {
      * @param scanner  Scanner to retrieve user input.
      * @param msgInput Message to display to the user when prompting for
      *                 input.
-     * @return Validated double.
+     * @return         Validated double.
      */
     public static int getValidInteger(Scanner scanner,
                                       String msgInput) {
@@ -84,7 +112,7 @@ public class JSulli40_Chapter07_Assignment01 {
      * @param scanner  Scanner to retrieve user input.
      * @param msgInput Message to display to the user when prompting for
      *                 input.
-     * @return Validated double.
+     * @return         Validated double.
      */
     public static double getValidDouble(Scanner scanner,
                                         String msgInput) {
@@ -121,7 +149,7 @@ public class JSulli40_Chapter07_Assignment01 {
      *
      * @param score    The student's score.
      * @param maxScore The highest score among all students.
-     * @return The grade as a character (A, B, C, D, or F).
+     * @return         The grade as a character (A, B, C, D, or F).
      */
     private static char getGrade(double score, double maxScore) {
         if (score >= maxScore - 10) {
