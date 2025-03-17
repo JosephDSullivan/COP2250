@@ -54,6 +54,7 @@ public class JSulli40_Chapter08_Assignment01 {
 
     /**
      * Computes the sum of each column in a given 2D array.
+     *
      * @param matrix The array to calculate sums for.
      * @return An array containing the sum of each column.
      */
@@ -79,7 +80,8 @@ public class JSulli40_Chapter08_Assignment01 {
 
     /**
      * Computes the sum of a given column in a given 2D array.
-     * @param m The array to calculate sums for.
+     *
+     * @param m           The array to calculate sums for.
      * @param columnIndex The index of the column to calculate sums for.
      * @return The sum of all elements in the specified columns.
      */
