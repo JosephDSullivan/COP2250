@@ -1,11 +1,13 @@
 /**
  * Chapter 08, Assignment 01.
- * Write a method that returns the sum of all the elements in a specified
+ *
+ * <p>Write a method that returns the sum of all the elements in a specified
  * column in a matrix using the following header:
- * public static double sumColumn(double[][] m, int columnIndex)
- * Write a test program that reads a 3-by-4 matrix and displays the sum of
- * each column.
- * ***Look in the book for a sample run.
+ * <code>public static double sumColumn(double[][] m, int columnIndex)</code>
+ * </p>
+ * <p>Write a test program that reads a 3-by-4 matrix and displays the sum of
+ * each column.</p>
+ * <p>***Look in the book for a sample run.</p>
  *
  * @author Joseph D Sullivan
  * @version 1.0
@@ -15,7 +17,7 @@
 package chapter08;
 
 /**
- * This code is for chapter 07, assignment 01.
+ * This code is for chapter 08, assignment 01.
  */
 public class JSulli40_Chapter08_Assignment01 {
     /**
