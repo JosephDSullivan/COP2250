@@ -3,10 +3,10 @@ package chapter07;
 public class VarArgsDemo {
     public static void main(String[] args) {
         printMax(34, 3, 3, 2, 56.5);
-        printMax(new double[]{1, 2, 3});
+        printMax(1, 2, 3);
     }
 
-    public static void printMax(double...numbers) {
+    public static void printMax(double... numbers) {
         if (numbers.length == 0) {
             System.out.println("No arguments passed");
             return;

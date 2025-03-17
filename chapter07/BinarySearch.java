@@ -12,6 +12,7 @@ public class BinarySearch {
         System.out.println(binarySearch(list, 1));  // Returns -1.
         System.out.println(binarySearch(list, 3));  // Returns -2.
     }
+
     /**
      * Use binary search to find the key in the list.
      */

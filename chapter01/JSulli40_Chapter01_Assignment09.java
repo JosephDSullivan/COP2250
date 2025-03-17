@@ -5,9 +5,9 @@
  * area = width x height
  * perimeter = 2 x (width + height)
  *
- * @author  Joseph D Sullivan <JSulli40@Student.SCF.edu>
+ * @author Joseph D Sullivan <JSulli40@Student.SCF.edu>
  * @version 1.0
- * @since   2025-01-16
+ * @since 2025-01-16
  */
 package chapter01;
 
