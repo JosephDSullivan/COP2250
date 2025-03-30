@@ -28,21 +28,19 @@ public class TestCircle {
     }
 }
 
+//  Define the circle class with two constructors.
 class Circle {
-    /**
-     * The radius of this circle.
-     */
     double radius;
 
     /**
-     * Construct a circle object.
+     * Construct a circle with radius 1.
      */
     Circle() {
         radius = 1;
     }
 
     /**
-     * Construct a circle object.
+     * Construct a circle object with a specified radius.
      */
     Circle(double newRadius) {
         radius = newRadius;
