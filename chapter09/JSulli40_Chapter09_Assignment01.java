@@ -33,7 +33,7 @@
 
 package chapter09;
 
-class Rectangle_JS {
+class Rectangle_JDS {
     /**
      * The height and width of this rectangle.
      */
@@ -43,7 +43,7 @@ class Rectangle_JS {
     /**
      * Constructs a default rectangle, with default height and default width.
      */
-    Rectangle_JS() {
+    Rectangle_JDS() {
         height = 1.0;
         width = 1.0;
     }
@@ -51,7 +51,7 @@ class Rectangle_JS {
     /**
      * Constructs a rectangle with specified height and specified width.
      */
-    Rectangle_JS(double height, double width) {
+    Rectangle_JDS(double height, double width) {
         this.height = height;
         this.width = width;
     }
@@ -80,7 +80,7 @@ public class JSulli40_Chapter09_Assignment01 {
      */
     public static void main(String[] args) {
         //  Create rectangle1 (40 x 4).
-        Rectangle_JS rectangle1 = new Rectangle_JS(40, 4);
+        Rectangle_JDS rectangle1 = new Rectangle_JDS(40, 4);
         //  Display information about rectangle1 to user.
         System.out.println("Rectangle 1 (40 x 4):");
         System.out.printf("%-10s %9.2f%n", "Height:", rectangle1.height);
@@ -91,7 +91,7 @@ public class JSulli40_Chapter09_Assignment01 {
         System.out.println();
 
         //  Create rectangle2 (35.9 x 3.5).
-        Rectangle_JS rectangle2 = new Rectangle_JS(35.9, 3.5);
+        Rectangle_JDS rectangle2 = new Rectangle_JDS(35.9, 3.5);
         //  Display information about rectangle2 to user.
         System.out.println("Rectangle 2 (35.9 x 3.5):");
         System.out.printf("%-10s %9.2f%n", "Height:", rectangle2.height);
