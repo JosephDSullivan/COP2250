@@ -1,7 +1,8 @@
 package chapter09;
 
-import java.util.Scanner;
 import javafx.geometry.Point2D;
+
+import java.util.Scanner;
 
 public class TestPoint2D {
     public static void main(String[] args) {
