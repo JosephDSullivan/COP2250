@@ -1,7 +1,7 @@
 package chapter10;
 
-import java.util.Scanner;
 import java.math.*;
+import java.util.Scanner;
 
 public class LargeFactorial {
     public static void main(String[] args) {
