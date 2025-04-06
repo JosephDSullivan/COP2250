@@ -1,6 +1,6 @@
 package chapter11;
 
-public class Circle extends GeometricObject {
+public class Circle extends GeometricObjectFromBook {
     private double radius;
 
     public Circle() {

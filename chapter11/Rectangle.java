@@ -1,6 +1,6 @@
 package chapter11;
 
-public class Rectangle extends GeometricObject {
+public class Rectangle extends GeometricObjectFromBook {
     private double width;
     private double height;
 

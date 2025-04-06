@@ -14,7 +14,7 @@ public class PolymorphismDemo {
     /**
      * Display geometric object properties.
      */
-    public static void displayObject(GeometricObject object) {
+    public static void displayObject(GeometricObjectFromBook object) {
         System.out.println("Created on " + object.getDateCreated() +
                 ". Color is " + object.getColor());
     }
